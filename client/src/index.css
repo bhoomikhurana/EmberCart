@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair:opsz,wght@5..1200,700&family=Poppins:ital,wght@0,400;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* font-family: 'Playfair', serif;
+font-family: 'Poppins', sans-serif; */
+/* font-family: 'Vina Sans', sans-serif; */
+/* navbar css */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0px solid gray !important;
+}
+.nav-link {
+  font-weight: 300 !important;
+}
+.active {
+  border-bottom: 2px solid rgb(122, 101, 149);
+}
+.navbar-brand {
+  padding-left: 22px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-transform: none;
+  color: rgb(50, 25, 79);
+}
+.footer {
+  color: white;
+  padding: 25px;
+  background: linear-gradient(
+    91.7deg,
+    rgb(50, 25, 79) -4.3%,
+    rgb(122, 101, 149) 101.8%
+  );
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+.footer a:hover {
+  color: rgb(210, 210, 210);
+}
+.pnf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 67vh;
+}
+.pnf-title {
+  font-weight: 700;
+  font-size: 70px;
+}
+.pnf a {
+  text-decoration: none;
+  color: rgb(50, 25, 79);
+  border: 2px solid rgb(50, 25, 79);
+  padding: 4px;
+  margin-top: 10px;
+}
+.pnf a:hover {
+  color: white;
+  background-color: rgb(50, 25, 79);
+}
+.contact-heading {
+  margin-top: 10%;
+  font-size: 40px;
+  color: rgb(50, 25, 79) !important;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
