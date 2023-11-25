@@ -3,6 +3,7 @@ import {
   loginController,
   registerController,
   testController,
+  forgotPasswordController,
 } from "../controllers/authController.js";
 import { requireSignIn, isAdmin } from "../middlewares/authMiddleware.js";
 
@@ -15,5 +16,6 @@ router.get("/test", requireSignIn, isAdmin, testController);
 router.get("/user-auth", requireSignIn, (req, res) => {
   res.status(200).send({ ok: true });
 });
+router.post("/forgot-password", forgotPasswordController);
 
 export default router;

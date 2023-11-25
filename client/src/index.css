@@ -36,6 +36,7 @@ font-family: 'Poppins', sans-serif; */
     rgb(50, 25, 79) -4.3%,
     rgb(122, 101, 149) 101.8%
   );
+  margin-top: 30vh;
 }
 .footer a {
   color: white;

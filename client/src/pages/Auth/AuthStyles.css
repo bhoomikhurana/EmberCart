@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 100vh;
   flex-direction: column;
 }
 .form-container form {
@@ -32,9 +32,7 @@
   text-align: center;
   background-color: rgb(50, 25, 79);
   border: none;
-  position: relative;
-  left: 34%;
-  width: 100px;
+  width: 100%;
 }
 .form-container form button:hover {
   background: linear-gradient(
@@ -42,4 +40,10 @@
     rgb(50, 25, 79) -4.3%,
     rgb(122, 101, 149) 101.8%
   );
+}
+.form-container form button forgot {
+  background-color: red;
+}
+.forgot {
+  background-color: red;
 }
