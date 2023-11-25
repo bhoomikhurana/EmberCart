@@ -50,11 +50,5 @@ const About = () => {
     </Layout>
   );
 };
-Layout.defaultProps = {
-  title: "EmberCart-shop now",
-  description: "MERN stack project",
-  keywords: "mern,react,node,mongodb",
-  author: "Bhoomi Khurana",
-};
 
 export default About;

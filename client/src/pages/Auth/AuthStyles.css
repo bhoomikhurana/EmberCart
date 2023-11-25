@@ -1,0 +1,45 @@
+/* rgb(50, 25, 79) */
+/* rgb(122, 101, 149) */
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  flex-direction: column;
+}
+.form-container form {
+  width: 24%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+.form-container form input {
+  border-color: rgb(50, 25, 79);
+  border-color: rgb(193, 193, 193);
+  border-width: 1px;
+}
+.form-container form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(50, 25, 79);
+  border: none;
+  position: relative;
+  left: 34%;
+  width: 100px;
+}
+.form-container form button:hover {
+  background: linear-gradient(
+    91.7deg,
+    rgb(50, 25, 79) -4.3%,
+    rgb(122, 101, 149) 101.8%
+  );
+}
