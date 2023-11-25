@@ -7,10 +7,13 @@ import Policy from "./pages/Policy";
 import SignUp from "./pages/Auth/SignUp";
 import Login from "./pages/Auth/Login";
 import Dashboard from "./pages/user/Dashboard";
-import PrivateRoute from "./components/Layout/Routes/PrivateRoute";
+import PrivateRoute from "./components/Routes/PrivateRoute";
 import ForgotPassword from "./pages/Auth/ForgotPassword";
-import AdminRoute from "./components/Layout/Routes/AdminRoute";
+import AdminRoute from "./components/Routes/AdminRoute";
 import AdminDashboard from "./pages/Admin/AdminDashboard";
+import CreateCategory from "./pages/Admin/CreateCategory";
+import CreateProduct from "./pages/Admin/CreateProduct";
+import Users from "./pages/Admin/Users";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         </Route>
         <Route path="/dashboard" element={<AdminRoute />}>
           <Route path="admin" element={<AdminDashboard />} />
+          <Route path="admin/create-category" element={<CreateCategory />} />
+          <Route path="admin/create-product" element={<CreateProduct />} />
+          <Route path="admin/users" element={<Users />} />
         </Route>
         <Route path="/register" element={<SignUp />}></Route>
         <Route path="/forgot-password" element={<ForgotPassword />}></Route>
