@@ -74,10 +74,7 @@ font-family: 'Poppins', sans-serif; */
   color: rgb(50, 25, 79) !important;
   font-family: "Kdam Thmor Pro", sans-serif;
 }
-/* .register {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-  flex-direction: column;
-} */
+.product-link {
+  text-decoration: none;
+  color: black;
+}

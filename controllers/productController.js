@@ -76,7 +76,7 @@ export const getSingleProduct = async (req, res) => {
       .findOne({ slug: req.params.slug })
       .select("-photo")
       .populate("category");
-    res.status(500).send({
+    res.status(200).send({
       success: true,
       message: "Single product fetched",
       product,
